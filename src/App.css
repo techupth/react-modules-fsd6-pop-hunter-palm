@@ -61,8 +61,8 @@ nav {
 main {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
   background-color: #444;
+  gap: 20px;
   color: #fff;
   text-align: center;
   padding: 100px;
@@ -74,7 +74,10 @@ main {
 
 .company-detail-right {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  align-items: start;
 }
 
 .company-detail-right h2 {
